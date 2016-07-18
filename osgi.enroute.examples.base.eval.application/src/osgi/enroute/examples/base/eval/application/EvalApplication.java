@@ -10,7 +10,7 @@ import osgi.enroute.examples.base.eval.api.Eval;
         property = { Debug.COMMAND_SCOPE + "=eval", Debug.COMMAND_FUNCTION + "=eval" },
         name = "osgi.enroute.examples.base.eval")
 public class EvalApplication {
-
+    // The referecence API service
     private Eval eval;
 
     public double eval(String m) throws Exception {
